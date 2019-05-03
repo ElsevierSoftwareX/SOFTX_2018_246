@@ -1,0 +1,27 @@
+>> timing_sn
+================================
+Jacobi elliptic functions timing
+================================
+number of runs = 1000
+Timing SN - individual call
+ mjsn
+   average 0.4469865163875513 time 0.00253495s
+ ellipj
+   average 0.4469865163875513 time 0.0286436s t2/t1 = 11.2995
+ jacobiSN
+   average 0.4469865163875513 time 15.8922s t3/t1 = 6269.23 
+Timing SN - compact call - vector arguments
+ mjsn
+   average 0.4469865163875513 time 0.0027663s
+ ellipj
+   average 0.4469865163875513 time 0.00188394s t2/t1 = 0.681033
+ jacobiSN
+   average 0.4469865163875513 time 0.896428s t3/t1 = 324.053 
+Timing SN - compact call - matrix arguments
+number of runs = 100
+ mjsn
+   average 0.4449138247650009 time 0.0226491s
+ ellipj
+   average 0.4449138247650009 time 0.0102728s t2/t1 = 0.453565
+ jacobiSN
+   average 0.4449138247650009 time 7.98165s t3/t1 = 352.404 

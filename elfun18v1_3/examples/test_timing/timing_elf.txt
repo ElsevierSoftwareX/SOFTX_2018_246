@@ -1,0 +1,27 @@
+>> timing_elf
+================================
+Elliptic integral K timing
+================================
+number of runs = 1000
+Timing K - individual call
+ mjsn
+   average 2.014933943823072 time 0.000692858s
+ ellipke
+   average 2.014933943823071 time 0.00426413s t2/t1 = 6.15442
+ elipticK
+   average 2.014933943823072 time 14.052s t3/t1 = 20281.3 
+Timing K - compact call - vector argument
+ melK
+   average 2.014933943823072 time 0.00171813s
+ ellipke
+   average 2.014933943823071 time 0.00211134s t2/t1 = 1.22886
+ ellipticK
+   average 2.014933943823072 time 0.340484s t3/t1 = 198.171 
+Timing K - compact call - matrix argument
+number of runs = 100
+ mjsn
+   average 2.002989560871008 time 0.0143649s
+ ellipke
+   average 2.002989560871008 time 0.00286302s t2/t1 = 0.199307
+ ellipticK
+   average 2.002989560871009 time 2.37618s t3/t1 = 165.416 
